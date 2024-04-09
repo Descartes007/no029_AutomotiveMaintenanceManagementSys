@@ -31,7 +31,7 @@ public class CommDAO
 		        	if(conn==null||conn.isClosed()){
 
 		        		 Class.forName("com.mysql.jdbc.Driver");
-			        	 conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/no028_automotivemaintenance","root","1025");
+			        	 conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/no029_automotivemaintenance","root","1025");
 
 		            }}
 		        catch(Exception e)
